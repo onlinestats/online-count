@@ -1,0 +1,29 @@
+{
+  "name": "online-count",
+  "version": "0.0.2",
+  "description": "Counts unique elements in online fashion (piece by piece)",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onlinestats/online-count.git"
+  },
+  "keywords": [
+    "statistics",
+    "online",
+    "algorithm",
+    "counter"
+  ],
+  "author": "Anton Zemlyansky & Andrew Garshyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onlinestats/online-count/issues"
+  },
+  "homepage": "https://github.com/onlinestats/online-count#readme",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.9.1"
+  }
+}
